@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56848" started-at="2017-10-01T12:39:51Z" finished-at="2017-10-01T12:40:48Z">
+  <suite name="Default suite" duration-ms="41197" started-at="2017-10-01T14:09:51Z" finished-at="2017-10-01T14:10:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56848" started-at="2017-10-01T12:39:51Z" finished-at="2017-10-01T12:40:48Z">
+    <test name="Default test" duration-ms="41197" started-at="2017-10-01T14:09:51Z" finished-at="2017-10-01T14:10:32Z">
       <class name="FbTest.FbTest1">
-        <test-method status="PASS" signature="init()[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="init" is-config="true" duration-ms="39281" started-at="2017-10-01T18:09:51Z" finished-at="2017-10-01T18:10:30Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="init" is-config="true" duration-ms="22098" started-at="2017-10-01T19:39:51Z" finished-at="2017-10-01T19:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="main()[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="main" duration-ms="5013" started-at="2017-10-01T18:10:31Z" finished-at="2017-10-01T18:10:36Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="main" duration-ms="5014" started-at="2017-10-01T19:40:13Z" finished-at="2017-10-01T19:40:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="tearDown" is-config="true" duration-ms="12518" started-at="2017-10-01T18:10:36Z" finished-at="2017-10-01T18:10:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="tearDown" is-config="true" duration-ms="14053" started-at="2017-10-01T19:40:18Z" finished-at="2017-10-01T19:40:32Z">
           <params>
             <param index="0">
               <value>

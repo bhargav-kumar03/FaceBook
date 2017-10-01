@@ -1,18 +1,23 @@
 package com.fb.utilities;
 
 import java.util.List;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class utilities {
+	public static Properties testdata = null;
+	public static Properties object = null;
+	
 	
 	public static void getFBMenu(WebDriver driver, String clickname) throws InterruptedException
 	{
-		driver.findElement(By.xpath("//div[@id='userNavigationLabel']")).click();
+		object = LoadProperties.getObject();
+		driver.findElement(By.xpath(object.getProperty("FB_MenuDropDownButton"))).click();
 		Thread.sleep(5000);
-		List<WebElement> menu = driver.findElements(By.cssSelector(".uiScrollableAreaContent>ul>li a>span"));
+		List<WebElement> menu = driver.findElements(By.cssSelector(object.getProperty("FB_MenucssUl")));
 		
 		for(int i=0; i<menu.size(); i++)
 		{
