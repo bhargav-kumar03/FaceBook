@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56848" started-at="2017-10-01T12:39:51Z" finished-at="2017-10-01T12:40:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56848" started-at="2017-10-01T12:39:51Z" finished-at="2017-10-01T12:40:48Z">
+      <class name="FbTest.FbTest1">
+        <test-method status="PASS" signature="init()[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="init" is-config="true" duration-ms="39281" started-at="2017-10-01T18:09:51Z" finished-at="2017-10-01T18:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="main()[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="main" duration-ms="5013" started-at="2017-10-01T18:10:31Z" finished-at="2017-10-01T18:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FbTest.FbTest1@4f933fd1]" name="tearDown" is-config="true" duration-ms="12518" started-at="2017-10-01T18:10:36Z" finished-at="2017-10-01T18:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=SUCCESS method=FbTest1.main()[pri:0, instance:FbTest.FbTest1@4f933fd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FbTest.FbTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
